@@ -65,6 +65,7 @@ class OptimizationChecks(object):
         self.fetch_result_queue = multiprocessing.JoinableQueue()
         # spell-checker: disable
         self.cdn_cnames = {
+            '1815': ['media.1815.io'],
             'Advanced Hosters CDN': ['.pix-cdn.org'],
             'afxcdn.net': ['.afxcdn.net'],
             'Akamai': ['.akamai.net',
